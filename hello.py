@@ -2,7 +2,8 @@ print("Hello World")
 print("Hello Again")
 
 def main():
-    print("hi")
-    print(2+ord('b'))
+    print(2+int('5'))
+    for i in range(5):
+        print(i)
 
 main()
